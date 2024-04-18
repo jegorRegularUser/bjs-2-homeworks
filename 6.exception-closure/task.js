@@ -1,16 +1,10 @@
 console.log('Проверка работы github pages')
 const parseCount = (unparsedCount) => {
-    try {
         const parsedCount = Number.parseFloat(unparsedCount)
-
-        if (parsedCount !== parsedCount) {
+        if (isNaN(parsedCount)) {
             throw new Error("Невалидное значение")
         }
-
         return parsedCount
-    } catch (error) {
-        throw error
-    }
 }
 
 const validateCount = (parsedCount) => {
