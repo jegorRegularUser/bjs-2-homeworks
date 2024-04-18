@@ -1,3 +1,4 @@
+console.log('Проверка работы github pages')
 const parseCount = (unparsedCount) => {
     try {
         const parsedCount = Number.parseFloat(unparsedCount)
