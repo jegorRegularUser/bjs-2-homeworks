@@ -1,4 +1,5 @@
-﻿const parseCount = (unparsedCount) => {
+console.log('проверка работы githuv pages')
+const parseCount = (unparsedCount) => {
     try {
         const parsedCount = Number.parseFloat(unparsedCount)
 
