@@ -1,4 +1,3 @@
-console.log('Проверка работы github pages')
 const parseCount = (unparsedCount) => {
         const parsedCount = Number.parseFloat(unparsedCount)
         if (isNaN(parsedCount)) {
